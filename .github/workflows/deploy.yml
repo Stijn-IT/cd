@@ -35,7 +35,7 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.SSH }}
 
-      - name: Deploy to DigitalOcean
+      - name: Deploy Digital Ocean
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST}}
