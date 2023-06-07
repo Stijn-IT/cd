@@ -2,6 +2,9 @@
 
 ssh root@146.190.28.250
 
+vps opnieuw:
+sudo shutdown -r now
+
 
 ## Venv
 
