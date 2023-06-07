@@ -45,4 +45,4 @@ jobs:
           script: |
             cd /home/cd
             git pull origin main
-            sudo systemctl restart cd.service
+            systemctl restart cd.service
