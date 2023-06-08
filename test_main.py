@@ -24,7 +24,7 @@ def test_index(client):
 def test_about(client):
     response = client.get("/about")
     assert response.status_code == 200
-    assert b"<title>About</title>" in response.data
+    assert b"<title>Aboutt</title>" in response.data
 
 
 """ Write your own tests below."""
