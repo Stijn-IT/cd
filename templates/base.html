@@ -13,8 +13,6 @@
     />
 
     <!-- Use Jinja to put a title here. -->
-    {% block content %}
-    <code>
     <title>{{ title }}</title>
   </head>
 
@@ -26,7 +24,6 @@
       <li><a href="/about">About</a></li>
       <li><a href="/contact">Contact</a></li>
     </ul>
-  </code>
-     {% endblock %}
+    {% block content %} {% endblock %}
   </body>
 </html>
