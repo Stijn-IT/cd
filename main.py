@@ -1,10 +1,5 @@
 from flask import Flask, render_template, redirect, url_for
 
-# starten app: gewoon runnen met play, door regel onder if name_main
-# stoppen: rechter muisknop stop code run.
-# dit commando werkt ook:
-# python -m flask --app main run (main is bestandsnaam)
-
 __winc_id__ = "9263bbfddbeb4a0397de231a1e33240a"
 __human_name__ = "templates"
 
