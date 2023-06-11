@@ -13,17 +13,20 @@
     />
 
     <!-- Use Jinja to put a title here. -->
+    {% block content %}
+    <code>
     <title>{{ title }}</title>
   </head>
 
   <body>
-    <h1>Geslaagd!!!</h1>
+    <h1>Passed!?!</h1>
     <h2>Navigation</h2>
     <ul>
       <li><a href="/home">Home</a></li>
       <li><a href="/about">About</a></li>
       <li><a href="/contact">Contact</a></li>
     </ul>
-    {% block content %} {% endblock %}
+  </code>
+     {% endblock %}
   </body>
 </html>
