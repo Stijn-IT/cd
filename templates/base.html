@@ -9,22 +9,24 @@
       type="text/css"
       href="{{ url_for('static', filename='style.css') }}"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Work Sans"
+      rel="stylesheet"
+    />
 
     <title>{{ title }}</title>
   </head>
 
   <body>
-    <code>
-      <div class="navigation">
-        <h1>Passed!?</h1>
-        <h2>Navigation</h2>
-        <ul>
-          <li><a href="/home">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
-      </div>
-    </code>
+    <div class="navigation">
+      <h1>Passed!?</h1>
+      <h2>Navigation</h2>
+      <ul>
+        <li ><a href="/home">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
     {% block content %} {% endblock %}
   </body>
 </html>

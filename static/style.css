@@ -3,6 +3,8 @@ body {
   max-width: 800px;
   font-size: 18px;
   background-color: aliceblue;
+  font-family: "Work Sans", sans-serif;
+  letter-spacing: 0.03em;
 }
 
 h1 {
@@ -22,8 +24,9 @@ ul {
 
 a {
   color: black;
+  letter-spacing: 0.05em;
 }
 
 a:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
