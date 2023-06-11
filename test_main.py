@@ -27,11 +27,6 @@ def test_about(client):
     assert b"<title>About</title>" in response.data
 
 
-""" Write your own tests below."""
-
-# zelf geschreven:
-
-
 def test_contact(client):
     response = client.get("/contact")
     assert response.status_code == 200

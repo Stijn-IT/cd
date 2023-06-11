@@ -7,6 +7,10 @@ sudo shutdown -r now
 
 cd /etc/nginx/sites-available/
 
+## git clone
+
+Met git clone word meteen de remote overgenomen.
+
 
 ## Venv
 
